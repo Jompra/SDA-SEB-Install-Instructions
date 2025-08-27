@@ -9,7 +9,7 @@ If you are getting 'node is not recognised' or a similar error, follow these ins
 1. Press **Start** and search for **Edit the system environment variables**.
 2. Click **Environment Variables…**.
 3. Under **User variables**, select **Path** → **Edit**.
-4. Click **New** and add:
+4. Click **New** and add (as two seperate entries):
 
    * `C:\Program Files\nodejs\`
    * `%AppData%\npm`
