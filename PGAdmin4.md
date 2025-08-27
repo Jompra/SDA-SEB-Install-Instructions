@@ -12,15 +12,6 @@
 * When installation finishes, launch **pgAdmin 4**.
 * The first time you open it, pgAdmin will ask you to set a **master password** Make sure you make a not eof it and do not forget it.
 
-### 3. Check PostgreSQL is Running Locally
-
-* If you installed PostgreSQL already, make sure the PostgreSQL service is running:
-
-  * **Windows**: Look in *Services* for “PostgreSQL”.
-  * **macOS/Linux**: Run `psql --version` or `pg_ctl status` in the terminal.
-
-By default, PostgreSQL listens on `localhost` (127.0.0.1) and port `5432`.
-
 ### 4. Add a Connection in pgAdmin
 
 1. Open pgAdmin 4.
@@ -43,4 +34,4 @@ By default, PostgreSQL listens on `localhost` (127.0.0.1) and port `5432`.
 
 If you see your database in the left hand panel, you are 100% set up and ready to go.
 
-If you face a hickup we will make a note and then offer an alternative solution during the course. For now don't worry about it.
+If you face a hickup or this doesn't work we will make a note and then offer an alternative solution during the course. For now don't worry about it.
