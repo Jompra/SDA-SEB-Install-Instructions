@@ -14,18 +14,17 @@ If you are getting 'node is not recognised' or a similar error, follow these ins
    * `C:\Program Files\nodejs\`
    * `%AppData%\npm`
 5. Move these entries **near the top** (above conflicting tools, if any).
-6. OK → OK → OK to close all dialogs.
-7. Close and reopen git bash, then verify:
+6. Click OK, OK, OK to close all dialogs.
+7. If you already have a gitbash window open, close it first then open or re-open git bash, then verify:
 
    ```sh
    where node
    node -v
    npm -v
    ```
+If you see a filepath for the first one, and some numbers for the second two you are good to go.
 
 ## Quick troubleshooting
 
 * Open a **new** terminal after changes.
 * Run `where node` to see which path is used first.
-
-Shout if you want a one-pager PDF with screenshots for students.
